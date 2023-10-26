@@ -15,6 +15,8 @@
 		105B2CBD2AEA367300256FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105B2CBB2AEA367300256FCA /* LaunchScreen.storyboard */; };
 		105B2CC92AEA3BAE00256FCA /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B2CC82AEA3BAE00256FCA /* Cat.swift */; };
 		105B2CCB2AEA45D300256FCA /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B2CCA2AEA45D300256FCA /* mainView.swift */; };
+		105B2CCE2AEA73F700256FCA /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B2CCD2AEA73F700256FCA /* CatViewModel.swift */; };
+		105B2CD02AEA743000256FCA /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B2CCF2AEA743000256FCA /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		105B2CBE2AEA367300256FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		105B2CC82AEA3BAE00256FCA /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		105B2CCA2AEA45D300256FCA /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		105B2CCD2AEA73F700256FCA /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
+		105B2CCF2AEA743000256FCA /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,7 @@
 				105B2CC72AEA36C300256FCA /* Delegate */,
 				105B2CC42AEA368D00256FCA /* Model */,
 				105B2CC52AEA369C00256FCA /* View */,
-				105B2CC62AEA36A000256FCA /* Controller */,
+				105B2CCC2AEA73C100256FCA /* ViewModel */,
 				105B2CB92AEA367300256FCA /* Assets.xcassets */,
 				105B2CBB2AEA367300256FCA /* LaunchScreen.storyboard */,
 				105B2CBE2AEA367300256FCA /* Info.plist */,
@@ -75,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				105B2CC82AEA3BAE00256FCA /* Cat.swift */,
+				105B2CCF2AEA743000256FCA /* Observable.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -84,16 +89,9 @@
 			children = (
 				105B2CB62AEA367200256FCA /* Main.storyboard */,
 				105B2CCA2AEA45D300256FCA /* mainView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		105B2CC62AEA36A000256FCA /* Controller */ = {
-			isa = PBXGroup;
-			children = (
 				105B2CB42AEA367200256FCA /* ViewController.swift */,
 			);
-			path = Controller;
+			path = View;
 			sourceTree = "<group>";
 		};
 		105B2CC72AEA36C300256FCA /* Delegate */ = {
@@ -103,6 +101,14 @@
 				105B2CB22AEA367200256FCA /* SceneDelegate.swift */,
 			);
 			path = Delegate;
+			sourceTree = "<group>";
+		};
+		105B2CCC2AEA73C100256FCA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				105B2CCD2AEA73F700256FCA /* CatViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,8 +185,10 @@
 				105B2CC92AEA3BAE00256FCA /* Cat.swift in Sources */,
 				105B2CB52AEA367200256FCA /* ViewController.swift in Sources */,
 				105B2CB12AEA367200256FCA /* AppDelegate.swift in Sources */,
+				105B2CD02AEA743000256FCA /* Observable.swift in Sources */,
 				105B2CCB2AEA45D300256FCA /* mainView.swift in Sources */,
 				105B2CB32AEA367200256FCA /* SceneDelegate.swift in Sources */,
+				105B2CCE2AEA73F700256FCA /* CatViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

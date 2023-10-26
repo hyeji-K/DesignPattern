@@ -35,11 +35,6 @@ class mainView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func changeCat(_ imageName: String, _ name: String) {
-        catImageView.image = UIImage(named: imageName)
-        nameLabel.text = name
-    }
-    
     private func setupView() {
         self.backgroundColor = .white
         
